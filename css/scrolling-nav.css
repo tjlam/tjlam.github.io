@@ -1,0 +1,253 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+@media screen and (min-width:990px) {
+    #large-text {
+        font-size: 5em;
+    }
+}
+@media screen and (max-width:990px) {
+    #large-text {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width:676px) {
+    #large-text {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:321px) {
+    #large-text {
+        font-size: 2.5em;
+    }
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+/* Custom navbar styling */ 
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent; 
+    margin: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 24px;
+}
+
+.navbar-collapse .navbar-nav .page-scroll{
+    color: white !important;
+}
+.navbar-collapse .navbar-nav .active .page-scroll {
+    background: transparent !important;
+    color: #33CE6C !important;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white !important;
+}
+/* intro section styling */ 
+.intro-section {
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background: url(http://16thavenuedental.com/wp-content/themes/thavenue/images/banner-home-left-2.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.intro-section h1 {
+    color: white;
+}
+.intro-section h3 {
+    color: white;
+}
+
+.intro-section .row .main-header {
+    padding-top: 50px;
+}
+
+.intro-section .row .main-header .btn {
+    margin-top: 50px !important; 
+}
+
+.intro-section .glyphicon{
+    padding-top: 75px;
+    color: white;
+    font-size: 48px;
+}
+/* about section styling */ 
+
+.about-section {
+    padding-top: 0px;
+    text-align: center;
+    background: white;
+}
+
+.about-section .about-header {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #09814A;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.about-section .about-header h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;}
+
+.about-section .thumbnails {
+    margin: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 35px; 
+}
+
+.about-section .thumbnails .thumbnail {
+    border: none;
+}
+
+
+.about-section .about-list .jumbotron {
+    background: url(http://www.wyomingskinandbody.com/wp-content/uploads/2015/08/Cosmetic-Services-CWMA1.jpg) no-repeat center center; 
+    margin-bottom: 0px;
+}
+
+/* services section styling */ 
+.services-section {
+    text-align: center;
+    background: white;
+}
+
+.services-section .jumbotron {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.services-section .services-header {
+    width: 100%;
+    padding-top: 75px; 
+    padding-bottom: 75px;
+    background-color: #09814A;
+    color: white;
+}
+
+.services-section .info-port .media {
+    display: none;
+    background-color: white;
+}
+
+.services-section .service-list .list-group .sub-group {
+    display:none;
+}
+.services-section .service-list .list-group .default {
+    display: block;
+}
+
+.services-section .info-port .active-page {
+    display: block;
+    margin-top: 0px;
+}
+
+.services-section .service-list .list-group .list-group-item {
+    text-align: left; 
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #33CE6C;
+    background-color: white;
+    border-left-color: #33CE6C !important;
+    border-width: 5px;
+}
+
+/* Products section styling */ 
+.products-section {
+    background: white;
+}
+
+.products-section .products-header {
+    text-align: center;
+    color: white;
+    background-color: #09814A;    
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+/*staff section styling */ 
+.staff-section {
+    text-align: center;
+    background: #eee;
+    padding-bottom: 20px;
+}
+
+.staff-section .jumbotron {
+    background-color: #09814A; 
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;ß
+}
+
+.staff-section .profiles .media-body {
+    text-align: left;
+}
+/* contact section styling */ 
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.contact-section .contact-info {
+    background-color: white; 
+    padding: 20px;
+}
+
+.contact-section .jumbotron {
+    padding: 100px;
+    border-radius: 0px;
+    border: none;
+    background: url("map.png") center center no-repeat;
+}
