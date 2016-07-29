@@ -160,7 +160,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .services-section .jumbotron {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background-color: white;
 }
 
@@ -174,7 +174,12 @@ of those sections to manage the look and feel of the site. */
 
 .services-section .info-port .media {
     display: none;
+    padding-top: 20px;
     background-color: white;
+}
+
+.services-section .service-list {
+    background-color: #eee;
 }
 
 .services-section .service-list .list-group .sub-group {
@@ -193,6 +198,7 @@ of those sections to manage the look and feel of the site. */
     text-align: left; 
     border-radius: 0px;
     border-color: transparent;
+    background-color: #eee;
 }
 
 
