@@ -114,7 +114,7 @@ of those sections to manage the look and feel of the site. */
 .intro-section .glyphicon{
     padding-top: 75px;
     color: white;
-    font-size: 48px;
+    font-size: 75px;
 }
 /* about section styling */ 
 
@@ -247,6 +247,8 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section .jumbotron {
     padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px; 
     border-radius: 0px;
     border: none;
     background: url("map.png") center center no-repeat;
