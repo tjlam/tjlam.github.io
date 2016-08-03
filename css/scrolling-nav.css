@@ -37,10 +37,19 @@ html {
     #large-text {
         font-size: 5em;
     }
+    #profiles-mobile {
+        display: none;
+    }
 }
 @media screen and (max-width:990px) {
     #large-text {
         font-size: 4em;
+    }
+    #profiles-desktop {
+        display: none;
+    }
+    #profiles-mobile {
+        display: block;
     }
 }
 
@@ -236,9 +245,10 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 75px;ß
 }
 
-.staff-section .profiles .media-body {
+.staff-section .profiles p{
     text-align: left;
 }
+
 /* contact section styling */ 
 .contact-section {
     height: 100%;
