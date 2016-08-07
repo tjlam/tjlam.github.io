@@ -29,7 +29,7 @@ html {
     }
 
     .top-nav-collapse {
-        padding: 0;
+        padding: 0px;
     }
 
 }
@@ -104,27 +104,42 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: url(http://16thavenuedental.com/wp-content/themes/thavenue/images/banner-home-left-2.jpg) center center no-repeat;
     background-size: cover; 
-}
-.intro-section h1 {
     color: white;
 }
-.intro-section h3 {
-    color: white;
-}
-
-.intro-section .row .main-header {
-    padding-top: 50px;
-}
-
-.intro-section .row .main-header .btn {
-    margin-top: 50px !important; 
-}
-
-.intro-section .glyphicon{
+.intro-section .address {
     padding-top: 75px;
-    color: white;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.intro-section .address address {
+    margin: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    background-color: #09814A;
+}
+.intro-section .logo {
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.intro-section .phone-number {
+    padding-top: 75px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.intro-section .phone-number h2 {
+    margin: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 26px;
+    background-color: #09814A;
+}
+.intro-section .glyphicon{
+    padding-top: 175px;
+    color: #09814A;
     font-size: 75px;
 }
+
+
 /* about section styling */ 
 
 .about-section {
@@ -187,6 +202,20 @@ of those sections to manage the look and feel of the site. */
     background-color: white;
 }
 
+.services-section .info-port .media-body {
+    padding-top: 50px;
+}
+
+.services-section .info-port .media p {
+    text-align: left;
+    line-height: 200%;
+}
+
+.services-section .info-port .media .media-object {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .services-section .service-list {
     background-color: #eee;
 }
@@ -247,6 +276,17 @@ of those sections to manage the look and feel of the site. */
 
 .staff-section .profiles {
     text-align: left;
+}
+/*testimonial section styling */ 
+.testimonial-section {
+    text-align: center;
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.testimonial-section .jumbotron {
+    background-color: #eee;
 }
 
 /* contact section styling */ 
