@@ -1,11 +1,12 @@
 /* services section styling */ 
 .services-section {
-    text-align: center;
+    text-align: left;
     background: white;
 }
 
 .services-section .jumbotron {
     margin-bottom: 0px;
+    text-align: center;
     background-color: white;
 }
 
