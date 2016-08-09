@@ -42,30 +42,9 @@
     background-color: #eee;
 }
 
-.services-section .service-list .list-group .sub-group {
-    display:none;
-}
-.services-section .service-list .list-group .default {
-    display: block;
-}
-
 .services-section .info-port .active-page {
     display: block;
     margin-top: 0px;
 }
 
-.services-section .service-list .list-group .list-group-item {
-    text-align: left; 
-    border-radius: 0px;
-    border-color: transparent;
-    background-color: #eee;
-}
 
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #33CE6C;
-    background-color: white;
-    border-left-color: #33CE6C !important;
-    border-width: 5px;
-}

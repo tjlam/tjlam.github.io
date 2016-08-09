@@ -1,19 +1,20 @@
 var main = function () {
 	
-	$(".list-group-item").click( function() {
-		var lastBtn = $(".service-list .list-group-item.active"); 
-		lastBtn.removeClass("active");
-		var lastPg = "#" + lastBtn.attr("value");
-		$(lastPg).removeClass("active-page");
+	//Services side bar
+	$(".services-nav .list-item").click( function() {
+		var lastSelected = $(".services-nav .active"); 
+		var lastPg = $(".info-port .active-page");
 
+		lastSelected.removeClass("active");
+		lastPg.removeClass("active-page");
 
 		$(this).addClass("active");
-		var currentPg = "#" + $(this).attr("value");
-		$(currentPg).addClass("active-page");
-		var currentList = currentPg + "-sub";
-		$(currentList).slideToggle();
-	});
+		var selected = "#" + $(this).attr("value");
+		$(selected).addClass("active-page");
 
+
+	});
+	// hides navbar when at top of page
 	$(window).scroll(function() {
 		if ($(window).scrollTop() >= 50) {
 			$('.navbar').css('background', '#09814A'); 
