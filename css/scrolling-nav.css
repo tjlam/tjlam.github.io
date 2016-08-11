@@ -179,13 +179,8 @@ of those sections to manage the look and feel of the site. */
 
 /* services section styling */ 
 .services-section {
-    text-align: center;
+    text-align: left;
     background: white;
-}
-
-.services-section .jumbotron {
-    margin-bottom: 0px;
-    background-color: white;
 }
 
 .services-section .services-header {
@@ -193,7 +188,25 @@ of those sections to manage the look and feel of the site. */
     padding-top: 75px; 
     padding-bottom: 75px;
     background-color: #09814A;
+    text-align: center;
     color: white;
+    margin: 0px;
+}
+
+.services-section .services-nav {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.services-section .services-nav ul {
+    list-style-type: none;
+
+}
+.services-section .services-nav ul li {
+    color: #09814A;
+}
+.services-section .services-nav ul li a{
+    color: black;
 }
 
 .services-section .info-port .media {
@@ -202,50 +215,10 @@ of those sections to manage the look and feel of the site. */
     background-color: white;
 }
 
-.services-section .info-port .media-body {
-    padding-top: 50px;
-}
-
-.services-section .info-port .media p {
-    text-align: left;
-    line-height: 200%;
-}
-
-.services-section .info-port .media .media-object {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.services-section .service-list {
-    background-color: #eee;
-}
-
-.services-section .service-list .list-group .sub-group {
-    display:none;
-}
-.services-section .service-list .list-group .default {
-    display: block;
-}
 
 .services-section .info-port .active-page {
     display: block;
     margin-top: 0px;
-}
-
-.services-section .service-list .list-group .list-group-item {
-    text-align: left; 
-    border-radius: 0px;
-    border-color: transparent;
-    background-color: #eee;
-}
-
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #33CE6C;
-    background-color: white;
-    border-left-color: #33CE6C !important;
-    border-width: 5px;
 }
 
 /* Products section styling */ 
