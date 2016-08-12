@@ -102,43 +102,10 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 200px;
     text-align: center;
+    color: white;
     background: url(http://16thavenuedental.com/wp-content/themes/thavenue/images/banner-home-left-2.jpg) center center no-repeat;
     background-size: cover; 
-    color: white;
 }
-.intro-section .address {
-    padding-top: 75px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.intro-section .address address {
-    margin: 0px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
-    background-color: #09814A;
-}
-.intro-section .logo {
-    padding: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.intro-section .phone-number {
-    padding-top: 75px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.intro-section .phone-number h2 {
-    margin: 0px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 26px;
-    background-color: #09814A;
-}
-.intro-section .glyphicon{
-    padding-top: 175px;
-    color: #09814A;
-    font-size: 75px;
-}
-
 
 /* about section styling */ 
 
