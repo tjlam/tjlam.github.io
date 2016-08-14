@@ -25,7 +25,6 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-
     }
 
     .top-nav-collapse {
@@ -100,11 +99,50 @@ of those sections to manage the look and feel of the site. */
 /* intro section styling */ 
 .intro-section {
     height: 100%;
-    padding-top: 200px;
+    padding-top: 10px;
     text-align: center;
     color: white;
-    background: url(http://16thavenuedental.com/wp-content/themes/thavenue/images/banner-home-left-2.jpg) center center no-repeat;
+    background: url(imgs/splash-page-V7.png) center center no-repeat;
     background-size: cover; 
+}
+
+.intro-section .main-header h1{
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 90px;
+}
+
+.intro-section .sub-header h1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.intro-section .btn {
+    border-width: 2px; 
+    border-radius: 0px;
+    border-color: white;
+    background: transparent;
+    color: white;
+    margin-top: 50px
+}
+
+.intro-section .contact-info {
+    width: 100%;
+    background-color: #09814A;
+    margin: 0px;
+    margin-top: 100px;
+}
+.intro-section .contact-info .address {
+    text-align: left;
+    margin: 0px;
+    padding: 5px;
+}
+.intro-section .contact-info .phone-number {
+    text-align: right;
+    margin: 0px;
+    padding: 5px;
 }
 
 /* about section styling */ 
@@ -121,7 +159,7 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 70px;
     background-color: #09814A;
     color: white;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .about-section .about-header h2 {
