@@ -108,6 +108,7 @@ of those sections to manage the look and feel of the site. */
     background-color: #09814A;
     color: white;
     margin: 0px;
+    z-index: 1;
 }
 .footer-section .contact-info .address p{
     text-align: left;
@@ -161,8 +162,9 @@ of those sections to manage the look and feel of the site. */
 
 .about-section .about-header {
     width: 100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
     background-color: #09814A;
     color: white;
     margin: 0px;
