@@ -116,7 +116,7 @@ of those sections to manage the look and feel of the site. */
     padding: 5px;
 }
 .footer-section .contact-info .phone-number p{
-    text-align: center;
+    text-align: left;
     margin: 0px;
     padding: 5px;
 }
@@ -269,16 +269,38 @@ of those sections to manage the look and feel of the site. */
     background-color: white;
     padding-top: 75px;
     padding-bottom: 75px;
+
 }
 
 .testimonial-section .jumbotron {
-    background-color: #eee;
+    background-color: #eee;    
+    margin: 0px;
+}
+.testimonial-section .carousel {
+    padding: 50px;
+    background-color: #09814A;
+}
+.testimonial-section .testimonials {
+    background-color: #09814A;
+}
+
+.testimonial-section .testimonial {
+    display: none;
+}
+.testimonial-section .active {
+    display: block;
+}
+
+
+.testimonial-section .chevron {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: white;
 }
 
 /* contact section styling */ 
 .contact-section {
     height: 100%;
-    padding-top: 50px;
     text-align: left;
 }
 
@@ -287,7 +309,7 @@ of those sections to manage the look and feel of the site. */
     padding: 20px;
 }
 
-.contact-section .jumbotron {
+.contact-section .jumbotron { 
     padding: 100px;
     padding-top: 200px;
     padding-bottom: 200px; 
