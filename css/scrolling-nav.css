@@ -77,19 +77,22 @@ of those sections to manage the look and feel of the site. */
 
 /* Custom navbar styling */ 
 .navbar-default {
-    background-color: transparent;
+    background-color: #09814A;
     border-color: transparent; 
     margin: 0px;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.navbar-brand {
+.navbar-header .text{
     color: white !important;
-    font-size: 24px;
+    font-size: 30px;
 }
-
+.navbar-collapse .navbar-nav {
+    padding-top: 20px;
+}
 .navbar-collapse .navbar-nav .page-scroll{
     color: white !important;
 }
@@ -117,6 +120,9 @@ of those sections to manage the look and feel of the site. */
     padding: 0px;
     padding-left: 10px;
     display: inline-block;
+}
+#facebook-icon {
+    text-decoration: none;
 }
 /* intro section styling */ 
 .intro-section {

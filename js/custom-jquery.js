@@ -14,13 +14,17 @@ var main = function () {
 
 
 	});
-	// hides navbar when at top of page
+	// hides navbar when scrolling down and shows navbar when scrolling up 
+	var previousTop = 0; 
 	$(window).scroll(function() {
-		if ($(window).scrollTop() >= 50) {
-			$('.navbar').css('background', '#09814A'); 
-		}else{ 
-			$('.navbar').css('background', 'transparent');
+		var currentTop = $(window).scrollTop(); 
+		if (currentTop > this.previousTop) {
+			$(".navbar").hide(); 
+		} else {
+			$(".navbar").fadeIn(500);
 		}
+
+		this.previousTop = currentTop; 
 	});
 	//testimonails chevrons
 	var first = $(".testimonial-section .testimonials .carousel .first");
