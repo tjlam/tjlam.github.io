@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h3 {
+h1, h2, h3 {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -141,27 +141,34 @@ of those sections to manage the look and feel of the site. */
     border-style: solid;
 }
 
-
 /* about section styling */ 
 
 .about-section {
-    padding-top: 0px;
     text-align: center;
     background: white;
 }
 
 .about-section .about-header {
-    width: 100%;
-    padding: 70px;
-    padding-right: 100px;
-    padding-left: 100px;
-    background-color: #09814A;
-    color: white;
-    margin: 0px;
+    color: #09814A;
+    text-align: left;
+    padding: 20px;
+    padding-left: 0px;
 }
 
-.about-section .about-header h2 {
-    font-family: 'Alegreya Sans SC', sans-serif;
+.about-section .about-body {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.about-section .office-photo {
+    padding: 30px;
+    padding-top: 75px;
+}
+
+.about-section .office-photo img {
+    height: 300px; 
+    width: 350px;
 }
 
 .about-section .thumbnails {
