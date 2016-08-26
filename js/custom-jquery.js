@@ -18,10 +18,10 @@ var main = function () {
 	var previousTop = 0; 
 	$(window).scroll(function() {
 		var currentTop = $(window).scrollTop(); 
-		if (currentTop > this.previousTop) {
-			$(".navbar").fadeOut(500); 
+		if (currentTop < this.previousTop) {
+			$(".navbar").fadeIn(500); 
 		} else {
-			$(".navbar").fadeIn(500);
+			$(".navbar").fadeOut(500);
 		}
 
 		this.previousTop = currentTop; 
