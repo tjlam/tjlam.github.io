@@ -19,7 +19,7 @@ var main = function () {
 	$(window).scroll(function() {
 		var currentTop = $(window).scrollTop(); 
 		if (currentTop > this.previousTop) {
-			$(".navbar").hide(); 
+			$(".navbar").fadeOut(500); 
 		} else {
 			$(".navbar").fadeIn(500);
 		}
