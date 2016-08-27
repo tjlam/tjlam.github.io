@@ -31,6 +31,7 @@ html {
 @media screen and (min-width:990px) {
     #main-header {
         font-size: 5em;
+        padding: 50px;
     }
     #profiles-mobile {
         display: none;
@@ -42,7 +43,8 @@ html {
 }
 @media screen and (max-width:990px) {
     #main-header {
-        font-size: 5.5em;
+        font-size: 4.5em;
+        padding: 45px;
     }
     #profiles-desktop {
         display: none;
@@ -56,8 +58,14 @@ html {
 }
 
 @media screen and (max-width:767px) {
+    #jumbotron {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
     #main-header {
-        font-size: 5em;
+        font-size: 3.5em;
+        border: none !important;
+        padding: 20px;
     }
 
     #MD-logo {
@@ -65,7 +73,15 @@ html {
     }
 
 }
+@media screen and (max-width:447px) {
+    #main-header {
+        font-size: 3em;
+    }
+}
 @media screen and (max-width:386px) {
+    #main-header {
+        font-size: 2.5em;
+    }
     #title {
         font-size: 24px;
         padding-left: 0px;
@@ -79,7 +95,7 @@ html {
 
 @media screen and (max-width:321px) {
     #main-header {
-        font-size: 4.5em;
+        font-size: 2em;
     }
     #MD-logo {
         height: 40px;
@@ -156,7 +172,6 @@ of those sections to manage the look and feel of the site. */
 
 #main-header {
     font-family: 'Alegreya Sans SC', sans-serif;
-    padding: 50px;
     border-style: solid;
 }
 

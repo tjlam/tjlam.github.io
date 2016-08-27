@@ -15,23 +15,10 @@ var main = function () {
 
 	});
 	// hides navbar when scrolling down and shows navbar when scrolling up 
-	/*
-	var previousTop = 0; 
-	$(window).scroll(function() {
-		var currentTop = $(window).scrollTop(); 
-		if (currentTop < this.previousTop) {
-			$(".navbar").fadeIn(500); 
-		} else {
-			$(".navbar").fadeOut(500);
-		}
 
-		this.previousTop = currentTop; 
-	});
-
-*/	
 	var didScroll; 
 	var lastScrollTop = 0; 
-	var delta = 30; 
+	var delta = 20; 
 	var navbarHeight = $('.navbar').outerHeight(); 
 
 	$(window).scroll( function(event) {
