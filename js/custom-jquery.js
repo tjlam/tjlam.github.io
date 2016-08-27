@@ -15,6 +15,7 @@ var main = function () {
 
 	});
 	// hides navbar when scrolling down and shows navbar when scrolling up 
+	/*
 	var previousTop = 0; 
 	$(window).scroll(function() {
 		var currentTop = $(window).scrollTop(); 
@@ -26,6 +27,39 @@ var main = function () {
 
 		this.previousTop = currentTop; 
 	});
+
+*/	
+	var didScroll; 
+	var lastScrollTop = 0; 
+	var delta = 30; 
+	var navbarHeight = $('.navbar').outerHeight(); 
+
+	$(window).scroll( function(event) {
+		didScroll = true;
+	});
+
+	setInterval(function() {
+		if (didScroll) {
+			hasScrolled(); 
+			didScroll = false; 
+		}
+	}, 250); 
+
+	function hasScrolled() {
+		var st = $(this).scrollTop(); 
+
+		// make sure they scroll more than delta 
+		if (Math.abs(lastScrollTop - st) <= delta) {
+			return;
+		}
+
+		if (st > lastScrollTop) {
+			$('.navbar').fadeOut(500);
+		} else {
+			$('.navbar').fadeIn(500);
+		}
+		lastScrollTop = st; 
+	}
 	//testimonails chevrons
 	var first = $(".testimonial-section .testimonials .carousel .first");
 	var last = $(".testimonial-section .testimonials .carousel .last"); 
