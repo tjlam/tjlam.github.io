@@ -27,10 +27,6 @@ html {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-    .top-nav-collapse {
-        padding: 20px;
-    }
-
 }
 @media screen and (min-width:990px) {
     #main-header {
@@ -38,6 +34,10 @@ html {
     }
     #profiles-mobile {
         display: none;
+    }
+
+    #MD-logo {
+        height: 70px; 
     }
 }
 @media screen and (max-width:990px) {
@@ -50,20 +50,39 @@ html {
     #profiles-mobile {
         display: block;
     }
+    #MD-logo {
+        height: 70px; 
+    }
 }
 
-@media screen and (max-width:676px) {
+@media screen and (max-width:767px) {
     #main-header {
         font-size: 5em;
     }
-    #sub-header {
-        display: none;
+
+    #MD-logo {
+        height: 55px; 
+    }
+
+}
+@media screen and (max-width:386px) {
+    #title {
+        font-size: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #MD-logo {
+        height: 45px;
+        padding: 0px;
     }
 }
 
 @media screen and (max-width:321px) {
     #main-header {
         font-size: 4.5em;
+    }
+    #MD-logo {
+        height: 40px;
     }
 }
 
@@ -90,7 +109,7 @@ of those sections to manage the look and feel of the site. */
     font-size: 30px;
 }
 .navbar-collapse .navbar-nav {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .navbar-collapse .navbar-nav .page-scroll{
     color: #09814A !important;
@@ -101,7 +120,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .navbar-default .navbar-toggle {
-    background-color: black !important;
+    background-color: white !important;
 }
 /* contact-bar styling */ 
 .contact-bar {
@@ -112,9 +131,10 @@ of those sections to manage the look and feel of the site. */
     color: #09814A;
     margin: 0px;
     z-index: 1;
+    text-align: right;
+
 }
 .contact-bar .contact-info .phone-number p{
-    text-align: right;
     margin: 0px;
     padding: 0px;
     padding-left: 10px;
@@ -143,8 +163,8 @@ of those sections to manage the look and feel of the site. */
 /* about section styling */ 
 
 .about-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     background: white;
 }
