@@ -275,15 +275,20 @@ of those sections to manage the look and feel of the site. */
 
 /* Products section styling */ 
 .products-section {
-    background: white;
+    background: #eee;
+    padding-top: 70px;
 }
 
 .products-section .products-header {
     text-align: center;
-    color: white;
-    background-color: #09814A;    
-    padding-top: 75px;
-    padding-bottom: 75px;
+    color: #09814A;
+    padding: 50px;
+}
+
+.products-section .thumbnail {
+    border-radius: 0px;
+    border-color: white;
+    margin-bottom: 25px;
 }
 /*staff section styling */ 
 .staff-section {
