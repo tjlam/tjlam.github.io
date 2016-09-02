@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;    
     text-align: left;
-    background: white;
+    background: #eee;
 }
 
 h1, h3 {
@@ -108,36 +108,22 @@ html {
     background-color: white !important;
 }
 
-.services-header {
-    width: 100%;
-    padding-top: 75px; 
-    padding-bottom: 75px;
-    background-color: #09814A;
-    text-align: center;
-    color: white;
-    margin: 0px;
-}
-
-.services-nav {
-    background-color: #eee;
-    padding: 20px;
-}
-
-.services-nav ul {
-    list-style-type: none;
-
-}
-.services-nav ul li {
+/* content styling */ 
+.information h1 {
+    text-align: center; 
+    padding: 50px;
+    padding-top: 0px;
     color: #09814A;
 }
-.services-nav ul li a{
-    color: black;
+.information h3 {
+    color: purple;
+}
+.information {
+    background-color: white;
 }
 
-.info-port .media {
-    display: none;
-    padding-top: 20px;
-    background-color: white;
+.information .photo img{
+    height: 250px;
 }
 /* contact-bar styling */ 
 .contact-bar {
