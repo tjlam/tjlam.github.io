@@ -1,19 +1,5 @@
 var main = function () {
-	
-	//Services side bar
-	$(".services-nav .list-item").click( function() {
-		var lastSelected = $(".services-nav .active"); 
-		var lastPg = $(".info-port .active-page");
 
-		lastSelected.removeClass("active");
-		lastPg.removeClass("active-page");
-
-		$(this).addClass("active");
-		var selected = "#" + $(this).attr("value");
-		$(selected).addClass("active-page");
-
-
-	});
 	// hides navbar when scrolling down and shows navbar when scrolling up 
 
 	var didScroll; 
@@ -47,6 +33,13 @@ var main = function () {
 		}
 		lastScrollTop = st; 
 	}
+	// Treatments -animate on hover 
+	/*
+	$(".treatment-list .treatments .treatment").hover(function () {
+		console.log("shit");
+		$(this).animate({opacity: 0.25 }, 200);
+	});
+*/
 	//testimonails chevrons
 	var first = $(".testimonial-section .testimonials .carousel .first");
 	var last = $(".testimonial-section .testimonials .carousel .last"); 
