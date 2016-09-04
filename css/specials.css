@@ -1,0 +1,142 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;    
+    text-align: left;
+    background: #eee;
+}
+
+h1, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0px;
+    }
+}
+@media screen and (min-width:990px) {
+    #main-header {
+        font-size: 5em;
+        padding: 50px;
+    }
+    #profiles-mobile {
+        display: none;
+    }
+
+    #MD-logo {
+        height: 70px; 
+    }
+}
+@media screen and (max-width:990px) {
+    #MD-logo {
+        height: 70px; 
+    }
+}
+
+@media screen and (max-width:767px) {
+    #jumbotron {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+
+    #MD-logo {
+        height: 55px; 
+    }
+
+}
+@media screen and (max-width:447px) {
+}
+@media screen and (max-width:386px) {
+    #title {
+        font-size: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #MD-logo {
+        height: 45px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width:321px) {
+    #MD-logo {
+        height: 40px;
+    }
+}
+/* contact-bar styling */ 
+.contact-bar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: white;
+    color: #09814A;
+    margin: 0px;
+    z-index: 1;
+    text-align: right;
+
+}
+.contact-bar .contact-info .phone-number p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#facebook-icon {
+    text-decoration: none;
+}
+
+/* Custom navbar styling */ 
+.navbar-default {
+    background-color: white;
+    border-color: #eee; 
+    margin: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-header .text{
+    color: #09814A !important;
+    font-size: 30px;
+}
+.navbar-collapse .navbar-nav {
+    padding-top: 20px;
+}
+.navbar-collapse .navbar-nav .page-scroll{
+    color: #09814A !important;
+}
+.navbar-collapse .navbar-nav .active .page-scroll {
+    background: transparent !important;
+    color: #33CE6C !important;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white !important;
+}
+.information {
+    padding: 50px;
+    padding-top: 150px;
+}
+/*footer styling */ 
+footer {
+    text-align: center; 
+    background-color: #09814A;
+    color: #eee;
+    padding: 25px;
+}
+footer a { 
+    color: white;
+}
