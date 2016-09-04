@@ -152,6 +152,10 @@ html {
     padding-top: 200px;
 }
 
+.information button {
+    border-radius: 0px;
+}
+
 
 /*footer styling */ 
 footer {
