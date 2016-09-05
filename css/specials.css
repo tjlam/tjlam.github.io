@@ -126,9 +126,20 @@ html {
 .navbar-default .navbar-toggle {
     background-color: white !important;
 }
+
+/* contents styling */ 
 .information {
+    background-color: white; 
     padding: 50px;
-    padding-top: 150px;
+    padding-top: 100px; 
+}
+.information h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+#book-btn button {
+    border-radius: 0px;
 }
 /*footer styling */ 
 footer {
@@ -139,4 +150,8 @@ footer {
 }
 footer a { 
     color: white;
+}
+#trademark {
+    padding-top: 10px;
+    font-size: 8px;
 }
