@@ -6,7 +6,7 @@ body {
     background: #eee;
 }
 
-h1, h3 {
+h1, h2, h3 {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -39,10 +39,14 @@ html {
     #MD-logo {
         height: 70px; 
     }
+
 }
 @media screen and (max-width:990px) {
     #MD-logo {
         height: 70px; 
+    }    
+    .information .monthly-special img {
+        height: 700px;
     }
 }
 
@@ -55,9 +59,15 @@ html {
     #MD-logo {
         height: 55px; 
     }
+    .information .monthly-special img {
+        height: 600px;
+    }
 
 }
 @media screen and (max-width:447px) {
+    .information .monthly-special img {
+        height: 400px;
+    }
 }
 @media screen and (max-width:386px) {
     #title {
@@ -68,11 +78,17 @@ html {
     #MD-logo {
         height: 45px;
         padding: 0px;
+    } 
+    .information .monthly-special img {
+        height: 250px;
     }
 }
 @media screen and (max-width:321px) {
     #MD-logo {
         height: 40px;
+    } 
+    .information .monthly-special img {
+
     }
 }
 /* contact-bar styling */ 
@@ -141,6 +157,11 @@ html {
 #book-btn button {
     border-radius: 0px;
 }
+
+.information .monthly-special {
+    text-align: center;
+}
+
 /*footer styling */ 
 footer {
     text-align: center; 

@@ -291,6 +291,24 @@ of those sections to manage the look and feel of the site. */
     border-color: #eee;
     margin-bottom: 25px;
 }
+/* specials section styling */ 
+.specials-section .information {
+    background-color: white; 
+    padding: 50px;
+    padding-top: 100px; 
+}
+.specials-section .information h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.specials-section #book-btn button {
+    border-radius: 0px;
+}
+
+.specials-section .information .monthly-special {
+    text-align: center;
+}
 /*staff section styling */ 
 .staff-section {
     text-align: center;
