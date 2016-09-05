@@ -152,7 +152,7 @@ html {
     padding-top: 200px;
 }
 
-.information button {
+#book-btn button {
     border-radius: 0px;
 }
 
@@ -168,3 +168,7 @@ footer a {
     color: white;
 }
 
+#trademark {
+    padding-top: 10px;
+    font-size: 8px;
+}

@@ -235,8 +235,7 @@ of those sections to manage the look and feel of the site. */
     color: black;
 }
 .treatments-section img {
-    text-align: center;
-    height: 550px;
+    height: 500px;
 }
 .treatments-section .treatments-header {
     text-align: center;
