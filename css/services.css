@@ -125,6 +125,14 @@ html {
 .information .photo img{
     height: 250px;
 }
+.information .treatments-menu {
+    padding-top: 50px;
+}
+
+.information .treatments-menu li {
+    list-style-type: none;
+    padding-top: 10px;
+}
 /* contact-bar styling */ 
 .contact-bar {
     position: fixed;
