@@ -20,6 +20,10 @@ var main = function () {
 
 	function hasScrolled() {
 		var st = $(this).scrollTop(); 
+		// make sure this function doesn't execute on mobile displays
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		 	return;
+		}
 
 		// make sure they scroll more than delta 
 		if (Math.abs(lastScrollTop - st) <= delta) {
@@ -40,30 +44,6 @@ var main = function () {
 		$(this).animate({opacity: 0.25 }, 200);
 	});
 */
-	//testimonails chevrons
-	var first = $(".testimonial-section .testimonials .carousel .first");
-	var last = $(".testimonial-section .testimonials .carousel .last"); 
-	//left chevron function
-	$("#chevron-left").click( function() {
-		var current = $(".testimonial-section .testimonials .carousel .active"); 
-		var previous = current.prev(".testimonial");
-		current.removeClass("active").hide();
-		if (current[0] == first[0]) {
-			last.fadeIn(1000).addClass("active");
-		} else {
-			previous.fadeIn(1000).addClass("active");
-		}
-	}); 
-	//right chevron function 
-	$("#chevron-right").click(function() {
-		var current = $(".testimonial-section .testimonials .carousel .active"); 
-		var next = current.next(".testimonial"); 
-		current.removeClass("active").hide(); 
-		if (current[0] == last[0]) {
-			first.fadeIn(1000).addClass("active");
-		} else {
-			next.fadeIn(1000).addClass("active");
-		}
-	});
+
 }
 $(document).ready(main);
