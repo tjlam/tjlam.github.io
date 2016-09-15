@@ -40,6 +40,7 @@ html {
     #MD-logo {
         height: 70px; 
     }
+
 }
 @media screen and (max-width:990px) {
     #main-header {
@@ -55,6 +56,7 @@ html {
     #MD-logo {
         height: 70px; 
     }
+
 }
 
 @media screen and (max-width:767px) {
@@ -77,6 +79,7 @@ html {
     #main-header {
         font-size: 3em;
     }
+
 }
 @media screen and (max-width:386px) {
     #main-header {
@@ -178,6 +181,7 @@ of those sections to manage the look and feel of the site. */
 /* about section styling */ 
 
 .about-section {
+    padding: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -187,19 +191,15 @@ of those sections to manage the look and feel of the site. */
 .about-section .about-header {
     color: #09814A;
     text-align: left;
-    padding: 20px;
-    padding-left: 40px;
 }
 
 .about-section .about-body {
     text-align: left;
-    padding-right: 20px;
-    padding-left: 40px;
+    padding-top: 20px;
 }
 
 .about-section .office-photo {
-    padding: 30px;
-    padding-top: 75px;
+    padding-top: 85px;
 }
 
 .about-section .office-photo img {
@@ -209,7 +209,6 @@ of those sections to manage the look and feel of the site. */
 
 .about-section .thumbnails {
     margin: 10px;
-    padding: 20px;
     padding-top: 30px;
     padding-bottom: 35px; 
 }
@@ -227,6 +226,7 @@ of those sections to manage the look and feel of the site. */
 /* treatments section styling */ 
 .treatments-section {
     background: #eee;
+    padding: 40px;
     padding-top: 70px;
     padding-bottom: 35px;
 }
@@ -235,23 +235,20 @@ of those sections to manage the look and feel of the site. */
     color: black;
 }
 .treatments-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
 }
 .treatments-section .treatments-header {
     text-align: center;
     color: #09814A;
-    padding: 40px;
+    padding-bottom: 50px;
 }
-.treatments-section .treatment-list .treatments {
-    padding: 40px;
-}
+
 .treatments-section .treatment-list .treatments .treatment {
     border-top: 2px solid purple;
     padding-bottom: 20px;
-}
-.treatments-section .brands {
-
-    padding-top: 40px;
 }
 
 /*
@@ -277,13 +274,15 @@ of those sections to manage the look and feel of the site. */
 /* Products section styling */ 
 .products-section {
     background: white;
+    padding: 40px;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .products-section .products-header {
     text-align: center;
     color: #09814A;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .products-section .thumbnail {
@@ -292,32 +291,51 @@ of those sections to manage the look and feel of the site. */
     margin-bottom: 25px;
 }
 /* specials section styling */ 
+.specials-section {
+    background-color: #eee;
+    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.specials-section #special-offers {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: white;
+
+}
 .specials-section .information {
-    background-color: white; 
-    padding: 50px;
-    padding-top: 100px; 
+    text-align: left;
 }
 .specials-section .information h1 {
     text-align: center;
-    padding: 50px;
+    padding-bottom: 50px;
+    color: #09814A;
 }
 
-.specials-section #book-btn button {
-    border-radius: 0px;
+.specials-section .information img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.specials-section .information .monthly-special {
-    text-align: center;
-}
 /*staff section styling */ 
 .staff-section {
     text-align: center;
     background: white;
+    padding: 40px;
     padding-top: 70px;
 }
 
 .staff-section .staff-header {
-    padding: 50px;
+    padding-bottom: 50px;
+    color: #09814A;
 }
 
 .staff-section .profiles {
@@ -330,7 +348,7 @@ of those sections to manage the look and feel of the site. */
     border-color: #eee; 
     border-radius: 0px; 
     padding: 20px;
-    background-color: #eee;
+    background-color: white;
 }
 
 .staff-section .thumbnail {
@@ -338,46 +356,13 @@ of those sections to manage the look and feel of the site. */
     background-color: #eee;
     padding: 20px;
 }
-/*testimonial section styling */ 
-.testimonial-section {
-    text-align: center;
-    background-color: white;
-    padding-top: 75px;
-    padding-bottom: 75px;
-
-}
-
-.testimonial-section .jumbotron {
-    background-color: #eee;    
-    margin: 0px;
-}
-.testimonial-section .carousel {
-    padding: 50px;
-    background-color: #09814A;
-}
-.testimonial-section .testimonials {
-    background-color: #09814A;
-}
-
-.testimonial-section .testimonial {
-    display: none;
-}
-.testimonial-section .active {
-    display: block;
-}
-
-
-.testimonial-section .chevron {
-    padding-top: 55px;
-    padding-bottom: 55px;
-    color: white;
-}
 
 /* contact section styling */ 
 .contact-section {
     height: 100%;
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: left;
+    background-color: #eee;
 }
 
 .contact-section .contact-info {
@@ -386,5 +371,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section .map { 
-    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact-section .map iframe {
+    width: 102.5%;
+    height: 300px;
 }
