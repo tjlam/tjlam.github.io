@@ -353,13 +353,12 @@ of those sections to manage the look and feel of the site. */
 
 .staff-section .thumbnail {
     border-radius: 0px;
-    background-color: #eee;
+    background-color: white;
     padding: 20px;
 }
 
 /* contact section styling */ 
 .contact-section {
-    height: 100%;
     padding-top: 70px;
     text-align: left;
     background-color: #eee;
