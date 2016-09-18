@@ -44,6 +44,29 @@ var main = function () {
 		$(this).animate({opacity: 0.25 }, 200);
 	});
 */
+	//Our staff menu desktop view functionality 
+	$('.staff-section .desktop .profiles .profile-tabs .profile-tab').click( function (){
+		//remove active class and hide profile
+		$('.staff-section .desktop .profiles .profile-tabs .active').removeClass("active");
+		$('.staff-section .desktop .profiles .profile-info .active').removeClass("active").hide().finish();
+		//add active class to selected tab
+		$(this).addClass("active");	
+		// add active class to selected profile and fade in 
+		var profile = "#" + $(this).attr("value"); 
+		$(profile).addClass("active").fadeIn(1000);
+
+	}); 
+	// Our staff menu mobile view functionality
+	$('.staff-section .mobile .profiles .profile-tab').click( function() {
+		//remove active class and styling from previously selected profile
+		$('.staff-section .mobile .profiles .active .bio').slideUp();
+		$('.staff-section .mobile .profiles .active').removeClass("active"); 
+
+		//add active class to selected profile
+		$(this).addClass("active"); 
+		//display corresponding bio
+		$('.staff-section .mobile .profiles .active .bio').slideToggle();
+	});
 
 }
 $(document).ready(main);

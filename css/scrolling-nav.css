@@ -74,6 +74,7 @@ html {
         height: 55px; 
     }
 
+
 }
 @media screen and (max-width:447px) {
     #main-header {
@@ -335,28 +336,101 @@ of those sections to manage the look and feel of the site. */
 
 .staff-section .staff-header {
     padding-bottom: 50px;
+    color: black;
+}
+/*desktop view styline 
+.staff-section .profile {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.staff-section .profile .profile-pic h3 {
     color: #09814A;
 }
-
-.staff-section .profiles {
+.staff-section .profile .bio-left {
     text-align: left;
 }
-
-.staff-section  .profile{
-    border-style: solid;
-    border-width: 1px; 
-    border-color: #eee; 
-    border-radius: 0px; 
-    padding: 20px;
-    background-color: white;
+.staff-section .profile .bio-right {
+    text-align: right;
+}
+*/
+.staff-section .desktop .profiles {
+    display: flex; 
+}
+.staff-section .desktop .profiles .profile-info {
+    flex: 1;
+    background-color: #eee;
+    padding: 0px;
+    border-right: solid;
+    border-right-width: 2px; 
+    border-right-color: white;
+    margin-top: 2px;
+}
+.staff-section .desktop .profiles .profile-info .bio {
+    display: none;
 }
 
-.staff-section .thumbnail {
+.staff-section .desktop .profiles .profile-info .bio .profile-header {
+    text-align: center; 
+    background-color: #09814A;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+
+}
+.staff-section .desktop .profiles .profile-info .bio p{
+    text-align: left; 
+    padding: 40px;
+    
+}
+
+.staff-section .desktop .profiles .profile-info .default {
+    display: block;
+} 
+.staff-section .desktop .profiles .profile-tabs .profile-tab {
+    margin-top: 0px;
+    border-top: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+}
+.staff-section .desktop .profiles .profile-tabs .profile-tab a {
     border-radius: 0px;
-    background-color: white;
-    padding: 20px;
+    background-color: #eee;
+    color: #09814A;
+    border:none;
+}
+.staff-section .desktop .profiles .profile-tabs .active a  {
+    background-color: #09814A;
+    color: white;
+}
+.staff-section .desktop .profiles .profile-tabs .profile-tab a:hover {
+    border-right: solid;
+} 
+
+.staff-section .desktop .profiles .profile-tabs .profile-tab img {
+    height: 75px;
 }
 
+/*mobile view styling */
+
+.staff-section .mobile .profiles .profile-tab .bio {
+    display: none;
+}
+
+.staff-section .mobile .profiles .nav-pills .profile-tab a{
+    border-radius: 0px;
+    color: #09814A;
+}
+.staff-section .mobile .profiles .nav-pills .active a {
+    background-color: #09814A;
+    color: white;
+}
+.staff-section .mobile .profiles p {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #eee;
+}
 /* contact section styling */ 
 .contact-section {
     padding-top: 70px;
