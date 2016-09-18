@@ -123,7 +123,9 @@ html {
 }
 
 .information .photo img{
-    height: 250px;
+    max-height: 250px;
+    max-width: 350px;
+    width: 100%;
 }
 .information .treatments-menu {
     padding-top: 50px;

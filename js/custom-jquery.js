@@ -59,6 +59,9 @@ var main = function () {
 	// Our staff menu mobile view functionality
 	$('.staff-section .mobile .profiles .profile-tab').click( function() {
 		//remove active class and styling from previously selected profile
+		if ($(this)[0] == $('.staff-section .mobile .profiles .active')[0]) {
+			return;
+		}
 		$('.staff-section .mobile .profiles .active .bio').slideUp();
 		$('.staff-section .mobile .profiles .active').removeClass("active"); 
 

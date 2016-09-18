@@ -204,8 +204,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section .office-photo img {
-    height: 300px; 
-    width: 350px;
+    max-height: 300px; 
+    max-width: 350px;
+    width: 100%;
 }
 
 .about-section .thumbnails {

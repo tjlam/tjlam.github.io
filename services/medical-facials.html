@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -28,6 +28,17 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- contact-bar --> 
+        <div class="contact-bar container">
+            <div class="contact-info">
+                <div class="phone-number">
+                    <a id="facebook-icon" href="https://www.facebook.com/mdlaserskinclinic"> 
+                        <img width="20px" height="20px" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png">
+                    </a>
+                    <p>416-445-7546</p>
+                </div>
+            </div> 
+        </div>
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -36,7 +47,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="../index.html#page-top"> MD Laser Skin Clinic </a>
+                <div class="navbar-header"> 
+                    <a class= "navbar-brand logo page-scroll" href="../index.html"> <img id="MD-logo" alt="logo" src="../css/imgs/logo.png"> </a>
+                    <a id="title" class= "navbar-brand text page-scroll" href="../index.html"> Laser Skin Clinic </br> and medi-spa </a>
+                </div>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,16 +65,16 @@
                         <a class="page-scroll" href="../index.html#about">about</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../services.html">services</a>
+                        <a class="page-scroll" href="../index.html#treatments">treatments</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../index.html#products">products</a>
                     </li>
-                    <li> 
-                        <a class="page-scroll" href="../index.html#staff"> staff </a>
+                    <li>
+                        <a class="page-scroll" href="#specials">specials</a>
                     </li>
                     <li> 
-                        <a class="page-scroll" href="../index.html#testimonials"> testimonials </a>
+                        <a class="page-scroll" href="../index.html#staff"> staff </a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../index.html#contact">contact</a>
@@ -70,43 +85,60 @@
         </div>
         <!-- /.container -->
     </nav>
+    <div class="container information">
+        <div class="row">                
+            <h1>Medical Facials</h1>
+            <div class="col-sm-8">
+                <p class="description">At MD Laser Skin Clinic, we keep our facials simple and effective... no fluff and stuff or over-promising results, and we will not “push you” to buy products. We are dedicated to caring for your skin and will recommend treatments and products only if we think you will benefit and if you are interested. Otherwise, just relax, and enjoy the benefits of the science of medical facials to improve or maintain your skin at the expertise of our experienced medical aesthetician, and be sure to wear a good sunscreen to protect the results! <br> <br>
 
-<!--services section --> 
+                Below is a list of the simple medical facials that we suggest for all skin types:
+                </p> 
+                <br><br>
 
-    <div class="jumbotron services-header">
-        <h1> Our Services </h1>
-    </div>        
+                <div class="faq">
+                    <h3>Deep Cleansing Facial - $85</h3>
+                    <p>
+                        This basic facial is our most popular cleansing treatment for oily skin, acne-prone skin, skin with large pores and comodones.  It is suitable for all skin types.  The skin is cleansed, gently exfoliated, removing toxins and impurities through manual and chemical procedures.  A mixture of botanical extracts and vitamins are applied to hydrate and nourish your skin.   For an extra $25, we will apply our ExCeliience Thermo-Sculpt mask that will firm and tone your skin to look more radiant and rejuvenated.   Try this facial in combination with our Anti-aging Eye Care treatment (for $30 extra) to get that super-refreshed look!
+                    </p>
+                    <br>
+                    <h3>Anti-aging Eye Care Treatment - $30</h3>
+                    <p>
+                        This professional treatment uses specially selected biologically active formulation that help reduce the signs of aging around the eyes – fine lines, wrinkles, dark circles and puffiness. We recommend this treatment in combination with the Deep Cleansing Facial to improve your overall skin tone, or with Botox Cosmetic (consultation required with our doctor), if you have those really deep, age-telling “crow’s feet” at your eyes when you smile.
+                    </p>
+                    <br>
+                    <h3>Microdermabrasion Facial - $85</h3>
+                    <p>
+                        Microdermabrasion is a very popular stimulating skin procedure that exfoliates using mild suction and a micro-crystalline spray to mechanically remove dull, surface dead skin and impurities within the pores, great for acneic skin (non-cystic type).  The result is a smoother textured skin, with younger and softer, brighter skin.  We recommend this procedure followed by a customized nourishing mask treatment or anti-aging /skin lightening serum treatment for only $25 extra.
+                    </p>
+                    
+                    <a id="book-btn" href="../index.html#contact"><button type="button" class="btn btn-default"> Book Today </button></a>  
+                </div>
+            </div>
+            <div class="col-sm-4 photo">
+                <img src="../css/imgs/medical-facial.jpg">
+                <div class="treatments-menu">
+                    <h3>More Treatments:</h3>
+                    <ul>
+                        <li><a href="botox-for-wrinkles.html">Botox Cosmetic®</a></li>
+                        <li><a href="filler.html">Fillers</a></li>
+                        <li><a href="botox-for-sweating.html">Botox Therapeutic® (exessive sweating)</a></li>
+                        <li><a href="laser-IPL-hair-removal.html">Laser Hair Removal</a></li>
+                        <li><a href="botox-for-tmjd.html">Botox Therapeutic® (TMJ muscle pain)</a></li>
+                        <li><a href="micro-needling.html">Microneedling</a></li>
+                        <li><a href="medical-facials.html">Medical Facials</a></li>
+                        <li><a href="IPL-photofacial.html">IPL Photofacial Rejuvenation</a></li>
+                        <li><a href="chemical-peel.html">Chemical Peeling</a></li>
+                        <li><a href="belkyra.html">Belkyra®</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    
-	<div class="row services-nav">
-		<div class="col-sm-4 col-sm-offset-2">
-			<ul>
-				<li>&emsp;Botox</li>
-				<ul>
-					<li class="list-item active"><a href="botox-for-wrinkles.html"> Botox for Wrinkles</a></li>
-					<li class="list-item"><a href="botox-for-sweating.html"> Botox for Sweating</a> </li>
-					<li class="list-item"><a href="TMJ-pain-treatment.html">TMJ Pain Treatment</a></li>
-				</ul>
-				<li class="list-item"><a href="juvederm.html">Juvederm </a></li>
-				<li class="list-item"><a href="laser-IPL-hair-removal.html">Laser IPL Hair Removal</a></li>
-				<li class="list-item"><a href="belkyra.html">Belkyra</a></li>
-			</ul>
-		</div>
 
-		<div class="col-sm-4">
-			<ul>
-				<li>&emsp;Skin Rejuvenation</li>
-				<ul>
-					<li class="list-item"><a href="photofacial.html">IPL Photofacial</a></li>
-					<li class="list-item"><a href="microneedling.html">Microneedling</a></li>
-					<li class="list-item"><a href="microdermabrasion.html">Microdermabrasion</a></li>
-					<li class="list-item"><a href="chemical-peel.html">Chemical Peel</a></li>
-					<li class="list-item"><a href="medical-facials.html">Medical Facials</a></li>
-				</ul>
-			</ul>
+    </div>
 
-		</div>
-	</div>
+
+
 
 
     <footer>
@@ -114,16 +146,24 @@
             <div class="col-md-4 nav">
                 <h4> MD Laser Skin Clinic</h4>
                     <a href="../index.html#about">About</a> </br>
-                    <a href="../index.html#services">Services</a></br>
+                    <a href="../index.html#treatments">Treatments</a></br>
                     <a href="../index.html#products">Products</a></br>
                     <a href="../index.html#staff">Staff</a></br>
-                    <a href="../index.html#testimonials">Testimonials</a></br>
+                    <a href="../index.html#specials">Specials</a></br>
                     <a href="../index.html#contact">Contact</a></br>
             </div>
             <div class="col-md-4 contact-info">
                 <h4>Contact Us</h4>
                 <p> Call: 416-445-7546</p>
                 <p> Email: smilestoronto@bellnet.ca</p>
+                    <p id="trademark">BOTOX COSMETIC® is a registered trademark of Allergan Inc. <br>
+                        LATISSE® is a registered trademark of Allergan Inc. <br>
+                        SOFT LIFT™ is a trademark of Allergan Inc. <br>
+                        JUVEDERM® is a registered trademark of Allergan Holdings France SAS <br>
+                        VOLBELLA™ is a trademark of Allergan Inc. <br>
+                        VOLUMA® is a registered trademark of Allergan Inc.
+                    </p>
+              
             </div>
 
             <div class="col-md-4 address">
