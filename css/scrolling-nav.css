@@ -132,11 +132,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 20px;
 }
 .navbar-collapse .navbar-nav .page-scroll{
-    color: #09814A !important;
+    color: black !important;
 }
 .navbar-collapse .navbar-nav .active .page-scroll {
     background: transparent !important;
-    color: #33CE6C !important;
+    color: #09814A !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -227,7 +227,7 @@ of those sections to manage the look and feel of the site. */
 
 /* treatments section styling */ 
 .treatments-section {
-    background: #eee;
+    background: #F4FBFF;
     padding: 40px;
     padding-top: 70px;
     padding-bottom: 35px;
@@ -244,33 +244,14 @@ of those sections to manage the look and feel of the site. */
 }
 .treatments-section .treatments-header {
     text-align: center;
-    color: #09814A;
+    color: black;
     padding-bottom: 50px;
 }
 
 .treatments-section .treatment-list .treatments .treatment {
-    border-top: 2px solid purple;
+    border-top: 2px solid #09814A;
     padding-bottom: 20px;
 }
-
-/*
-.treatments-section .treatments-nav {
-    background-color: #eee;
-    padding: 20px;
-}
-
-.treatments-section .treatments-nav ul {
-    list-style-type: none;
-
-}
-.treatments-section .treatments-nav ul li {
-    color: #09814A;
-}
-.treatments-section .treatments-nav ul li a{
-    color: black;
-}
-*/ 
-
 
 
 /* Products section styling */ 

@@ -97,11 +97,11 @@ html {
     padding-top: 20px;
 }
 .navbar-collapse .navbar-nav .page-scroll{
-    color: #09814A !important;
+    color: black !important;
 }
 .navbar-collapse .navbar-nav .active .page-scroll {
     background: transparent !important;
-    color: #33CE6C !important;
+    color: #09814A !important;
 }
 
 .navbar-default .navbar-toggle {
