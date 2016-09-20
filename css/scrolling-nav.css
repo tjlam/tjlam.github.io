@@ -336,6 +336,20 @@ of those sections to manage the look and feel of the site. */
     -webkit-transform: translate3d(0,-100%,0);
     transform: translate3d(0,-100%,0);
 }
+.products-section .hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+}
 
 .products-section .hovereffect a, hovereffect p {
     color: #FFF;
