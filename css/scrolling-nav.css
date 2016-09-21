@@ -122,6 +122,7 @@ of those sections to manage the look and feel of the site. */
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-header .text{
@@ -218,6 +219,7 @@ of those sections to manage the look and feel of the site. */
 .about-section .thumbnails .thumbnail {
     border-color: #eee;
     border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-section .thumbnails .btn {
@@ -227,7 +229,7 @@ of those sections to manage the look and feel of the site. */
 
 /* treatments section styling */ 
 .treatments-section {
-    background: #F4FBFF;
+    background: #FFF;
     padding: 40px;
     padding-top: 70px;
     padding-bottom: 35px;
@@ -272,6 +274,7 @@ of those sections to manage the look and feel of the site. */
     border-radius: 0px;
     border-width: 1px;
     border-color: #eee;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
 .products-section .hovereffect {
@@ -415,23 +418,10 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 50px;
     color: black;
 }
-/*desktop view styline 
-.staff-section .profile {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.staff-section .profile .profile-pic h3 {
-    color: #09814A;
-}
-.staff-section .profile .bio-left {
-    text-align: left;
-}
-.staff-section .profile .bio-right {
-    text-align: right;
-}
-*/
+
 .staff-section .desktop .profiles {
     display: flex; 
+    
 }
 .staff-section .desktop .profiles .profile-info {
     flex: 1;
