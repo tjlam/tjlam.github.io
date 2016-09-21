@@ -37,13 +37,13 @@ var main = function () {
 		}
 		lastScrollTop = st; 
 	}
-	// Treatments -animate on hover 
-	/*
-	$(".treatment-list .treatments .treatment").hover(function () {
-		console.log("shit");
-		$(this).animate({opacity: 0.25 }, 200);
+	//Parallax effect for splash page 
+	var parallax = $(".splash-section");
+
+	$(document).on("scroll" , function () {
+		var currentScroll = $(document).scrollTop(); 
+		parallax.css("background-position" , "0 " + -currentScroll/4 + "px");
 	});
-*/
 	//Our staff menu desktop view functionality 
 	$('.staff-section .desktop .profiles .profile-tabs .profile-tab').click( function (){
 		//remove active class and hide profile

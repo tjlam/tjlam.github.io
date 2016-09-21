@@ -165,7 +165,7 @@ of those sections to manage the look and feel of the site. */
     text-decoration: none;
 }
 /* intro section styling */ 
-.jumbotron-section {
+.splash-section {
     width: 100%;
     padding-top: 250px;
     padding-bottom: 200px;
@@ -173,6 +173,10 @@ of those sections to manage the look and feel of the site. */
     color: white;
     background: url(imgs/orchids.png) center center no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
+    -webkitz-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 #main-header {
