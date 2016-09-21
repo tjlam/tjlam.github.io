@@ -1,7 +1,9 @@
 var main = function () {
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		var onMobile = true;
+	}
 
 	// hides navbar when scrolling down and shows navbar when scrolling up 
-
 	var didScroll; 
 	var lastScrollTop = 0; 
 	var delta = 20; 
@@ -21,7 +23,7 @@ var main = function () {
 	function hasScrolled() {
 		var st = $(this).scrollTop(); 
 		// make sure this function doesn't execute on mobile displays
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		if( onMobile ) {
 		 	return;
 		}
 
@@ -41,9 +43,13 @@ var main = function () {
 	var parallax = $(".splash-section");
 
 	$(document).on("scroll" , function () {
+		if (onMobile) {
+			return;
+		}
 		var currentScroll = $(document).scrollTop(); 
 		parallax.css("background-position" , "0 " + -currentScroll/4 + "px");
 	});
+
 	//Our staff menu desktop view functionality 
 	$('.staff-section .desktop .profiles .profile-tabs .profile-tab').click( function (){
 		//remove active class and hide profile
