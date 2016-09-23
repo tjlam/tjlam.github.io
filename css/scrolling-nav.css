@@ -178,7 +178,7 @@ of those sections to manage the look and feel of the site. */
     padding: 100px 20px 100px 20px;
     background: url(imgs/woman.jpg) center center no-repeat;
     background-size: cover; 
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .splash-section .headers h1 {
