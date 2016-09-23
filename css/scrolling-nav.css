@@ -221,26 +221,20 @@ of those sections to manage the look and feel of the site. */
 }
 
 .splash-section .splash-button button {   
-  
     clear: both;
     float: left;
     margin: 20px;
     border: solid;
     border-color: #09814A;
     border-radius: 0px;
-    background: transparent;
-    color: #09814A;
+    background: #09814A;
+    color: #FFF;
     font-family: 'Alegreya Sans SC', sans-serif;  
     -webkit-animation: fadein 10s ; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 10s ;
 }
 .splash-section .splash-button button:focus {
     outline: 0;
-}
-.splash-section .splash-button button:hover {
-    background: #09814A;
-    border-color: #09814A;
-    color: #FFF; 
 }
 
 #main-header {
