@@ -596,6 +596,11 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section .map iframe {
-    width: 102.5%;
-    height: 300px;
+    width: 60%;
+    height: 400px;
+}
+.contact-section .map img {
+    max-width: 466px;
+    width: 100%;
+    height: auto;
 }
