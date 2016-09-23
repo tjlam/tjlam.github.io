@@ -40,6 +40,7 @@ var main = function () {
 		lastScrollTop = st; 
 	}
 	//Parallax effect for splash page 
+
 	var parallax = $(".splash-section");
 
 	$(document).on("scroll" , function () {
@@ -49,6 +50,7 @@ var main = function () {
 		var currentScroll = $(document).scrollTop(); 
 		parallax.css("background-position" , "0 " + -currentScroll/4 + "px");
 	});
+
 
 	//Our staff menu desktop view functionality 
 	$('.staff-section .desktop .profiles .profile-tabs .profile-tab').click( function (){
