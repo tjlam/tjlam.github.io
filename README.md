@@ -3,7 +3,7 @@
 MD Laser Skin Clinic is a cosmetic laser medispa. To increase traffic and improve the brand image, the website is being redesigned. 
 
 ## Usage
-Click here to view the [website.](https://tjlam.github.io/index.html#products)
+Click here to view the [website.](https://tjlam.github.io/index.html)
 
 ## History 
 Project started July 25th, and still in progress. Expected deployment date: beginning of October 
