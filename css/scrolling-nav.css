@@ -186,6 +186,7 @@ of those sections to manage the look and feel of the site. */
     float: left;
     padding: 0px 10px 0px 10px;
     margin: 0px;
+    background-color: #FFF;
 }
 .splash-section .headers #be-beautiful {
     position: relative;
