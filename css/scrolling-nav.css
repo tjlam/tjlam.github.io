@@ -289,6 +289,7 @@ of those sections to manage the look and feel of the site. */
     margin: 10px;
     padding-top: 30px;
     padding-bottom: 35px; 
+    background-color: #eee;
 }
 
 .about-section .thumbnails .thumbnail {
