@@ -261,7 +261,7 @@ of those sections to manage the look and feel of the site. */
 .about-section {
     padding: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -284,21 +284,21 @@ of those sections to manage the look and feel of the site. */
     max-width: 350px;
     width: 100%;
 }
-
-.about-section .thumbnails {
-    margin: 10px;
-    padding-top: 30px;
-    padding-bottom: 35px; 
+/* thumbail section */
+#about-thumbnails {
+    width: 100%;
+    margin: 0px;
+    padding: 50px;
     background-color: #eee;
 }
 
-.about-section .thumbnails .thumbnail {
+#about-thumbnails .thumbnail {
+    text-align: center;
     border-color: #eee;
     border-radius: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.about-section .thumbnails .btn {
+#about-thumbnails .btn {
     border-radius: 0px;
 }
 
