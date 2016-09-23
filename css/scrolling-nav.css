@@ -329,11 +329,14 @@ of those sections to manage the look and feel of the site. */
     border-top: 2px solid #09814A;
     padding-bottom: 20px;
 }
+.treatments-section .treatment-list .treatments .treatment:hover {
+    border-top: 4px solid #09814A;
+}
 
 
 /* Products section styling */ 
 .products-section {
-    background: white;
+    background: #eee;
     padding: 40px;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -448,7 +451,7 @@ of those sections to manage the look and feel of the site. */
 }
 /* specials section styling */ 
 .specials-section {
-    background-color: #F9F9F9;
+    background-color: #FFF;
     padding: 40px;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -484,7 +487,7 @@ of those sections to manage the look and feel of the site. */
 /*staff section styling */ 
 .staff-section {
     text-align: center;
-    background: white;
+    background: #eee;
     padding: 40px;
     padding-top: 70px;
 }
@@ -500,11 +503,11 @@ of those sections to manage the look and feel of the site. */
 }
 .staff-section .desktop .profiles .profile-info {
     flex: 1;
-    background-color: #F9F9F9;
+    background-color: #FFF;
     padding: 0px;
     border-right: solid;
     border-right-width: 2px; 
-    border-right-color: white;
+    border-right-color: #eee;
     margin-top: 2px;
 }
 .staff-section .desktop .profiles .profile-info .bio {
@@ -531,12 +534,12 @@ of those sections to manage the look and feel of the site. */
 .staff-section .desktop .profiles .profile-tabs .profile-tab {
     margin-top: 0px;
     border-top: solid;
-    border-top-color: white;
+    border-top-color: #eee;
     border-top-width: 2px;
 }
 .staff-section .desktop .profiles .profile-tabs .profile-tab a {
     border-radius: 0px;
-    background-color: #F9F9F9;
+    background-color: #FFF;
     color: #09814A;
     border:none;
 }
@@ -577,14 +580,17 @@ of those sections to manage the look and feel of the site. */
 .contact-section {
     padding-top: 70px;
     text-align: left;
-    background-color: #F9F9F9;
+    background-color: #FFF;
 }
 
 .contact-section .contact-info {
-    background-color: white; 
+    background-color: #09814A; 
     padding: 20px;
+    color: #fff;
 }
-
+.contact-section .contact-info a {
+    color: #FFF;
+}
 .contact-section .map { 
     padding-top: 20px;
 }
