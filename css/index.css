@@ -170,16 +170,16 @@ of those sections to manage the look and feel of the site. */
 .splash-section {
     width: 100%;
     text-align: center;
-    color: #09814A;
+    color: #09814A;        
+    padding: 100px 20px 100px 20px; 
+    background: url(imgs/woman.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .splash-section .jumbotron {
     width: 100%;
     height: 100%;
-    margin-top: 90px;
-    padding: 100px 20px 100px 20px;
-    background: url(imgs/woman.jpg) center center no-repeat;
-    background-size: cover; 
-    background-attachment: fixed;
+    background: transparent;
 }
 
 .splash-section .headers h1 {
