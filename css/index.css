@@ -136,7 +136,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 20px;
 }
 .navbar-collapse .navbar-nav .page-scroll{
-    color: black !important;
+    color: #231F20 !important;
 }
 .navbar-collapse .navbar-nav .active .page-scroll {
     background: transparent !important;
@@ -291,6 +291,11 @@ of those sections to manage the look and feel of the site. */
     border-radius: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#about-thumbnails .thumbnail img {
+    max-width: 400px;
+    max-height: 350px;
+    width: 100%;
+}
 #about-thumbnails .btn {
     border-radius: 0px;
 }
@@ -304,7 +309,7 @@ of those sections to manage the look and feel of the site. */
 }
 .treatments-section a {
     text-decoration: none;
-    color: black;
+    color: #231F20;
 }
 .treatments-section img {
     display: block;
@@ -314,7 +319,7 @@ of those sections to manage the look and feel of the site. */
 }
 .treatments-section .treatments-header {
     text-align: center;
-    color: black;
+    color: #231F20;
     padding-bottom: 50px;
 }
 
@@ -336,7 +341,7 @@ of those sections to manage the look and feel of the site. */
 }
 .products-section .products-header {
     text-align: center;
-    color: #09814A;
+    color: #231F20;
     padding-bottom: 50px;
 }
 
@@ -465,7 +470,7 @@ of those sections to manage the look and feel of the site. */
 .specials-section .information h1 {
     text-align: center;
     padding-bottom: 50px;
-    color: #09814A;
+    color: #231F20;
 }
 
 .specials-section .information img {
@@ -487,7 +492,7 @@ of those sections to manage the look and feel of the site. */
 
 .staff-section .staff-header {
     padding-bottom: 50px;
-    color: black;
+    color: #231F20;
 }
 
 .staff-section .desktop .profiles {
