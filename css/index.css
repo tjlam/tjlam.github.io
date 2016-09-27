@@ -175,7 +175,10 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     color: #09814A;        
     background: url(imgs/woman.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     background-attachment: scroll;
 }
 
