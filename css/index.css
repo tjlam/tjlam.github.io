@@ -111,11 +111,6 @@ html {
 
 
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
-
 /* Custom navbar styling */ 
 .navbar-default {
     background-color: white;
@@ -251,7 +246,13 @@ of those sections to manage the look and feel of the site. */
     100% { left: 0px; }
 }
 
+/* promotion */ 
+.promotion-section {
 
+    padding: 40px;
+    background-color: #09814A;
+    color: #FFF;
+}
 /* about section styling */ 
 
 .about-section {
