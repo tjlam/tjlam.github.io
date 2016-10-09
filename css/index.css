@@ -247,18 +247,24 @@ html {
 }
 
 /* promotion */ 
-.promotion-section {
-
-    padding: 40px;
+#promotion {
+    padding: 60px;
     background-color: #09814A;
     color: #FFF;
+    text-align: center;
+}
+
+#promotion a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 /* about section styling */ 
 
 .about-section {
     padding: 40px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -285,23 +291,39 @@ html {
 #about-thumbnails {
     width: 100%;
     margin: 0px;
-    padding: 50px;
-    background-color: #eee;
+    padding: 70px 120px 70px 120px;
+    background: url(imgs/orchids.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 #about-thumbnails .thumbnail {
+    padding: 0px;
     text-align: center;
-    border-color: #eee;
+    border: none;
     border-radius: 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255);
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 #about-thumbnails .thumbnail img {
     max-width: 400px;
-    max-height: 350px;
+    max-height: 200px;
     width: 100%;
 }
+
+#about-thumbnails .thumbnail .caption p {
+    padding: 5px;
+}
+
 #about-thumbnails .btn {
     border-radius: 0px;
+    border-color: #09814A;
+    background-color: #09814A;
+    color: #FFF;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 /* treatments section styling */ 
