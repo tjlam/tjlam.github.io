@@ -256,8 +256,8 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     padding: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -462,11 +462,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 20px;
     padding-bottom: 20px;
     border: solid;
-    border-color: white;
+    color: #FFF;
+    border-color: #09814A;
     border-width: 2px;
-    background-color: white;
-
+    background-color: #09814A;
 }
+
 .specials-section .information {
     text-align: left;
 }
