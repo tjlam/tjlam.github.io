@@ -39,6 +39,26 @@ var main = function () {
 		}
 		lastScrollTop = st; 
 	}
+	//home page carousel 
+	var slide1 = $("#slide1");
+	var slide2 = $("#slide2"); 
+
+	setInterval (function () {
+		if (slide1.hasClass("active")) {
+			slide1.hide();
+			slide2.fadeIn(2000);
+			slide1.removeClass("active");
+			slide2.addClass("active");
+		}
+		else 
+		{
+			slide2.hide();
+			slide1.fadeIn(2000);
+			slide2.removeClass("active");
+			slide1.addClass("active");
+		}
+	}, 10000);
+
 
 	//Our staff menu desktop view functionality 
 	$('.staff-section .desktop .profiles .profile-tabs .profile-tab').click( function (){

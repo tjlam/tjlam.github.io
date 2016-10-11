@@ -37,10 +37,10 @@ html {
     #MD-logo {
         height: 70px; 
     }
-    .splash-section  {
+    #slide1, #slide2  {
         padding: 100px 50px 100px 50px;
     }
-    .splash-section .headers h1 {
+    #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 75px;
     }
 
@@ -55,10 +55,10 @@ html {
     #MD-logo {
         height: 70px; 
     }
-    .splash-section  {
+    #slide1, #slide2  {
         padding: 75px 20px 75px 20px;
     }
-    .splash-section .headers h1 {
+    #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 55px;
     }
 
@@ -69,19 +69,19 @@ html {
     #MD-logo {
         height: 55px; 
     }
-    .splash-section  {
+    #slide1, #slide2  {
         padding: 50px 20px 50px 20px;
     }
-    .splash-section .headers h1 {
+    #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 45px;
     }
 
 }
 @media screen and (max-width:447px) {
-    .splash-section  {
+    #slide1, #slide2  {
         padding: 25px 20px 25px 20px;
     }
-    .splash-section .headers h1 {
+    #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 35px;
     }
 }
@@ -95,10 +95,10 @@ html {
         height: 45px;
         padding: 0px;
     }
-    .splash-section   {
+    #slide1, #slide2  {
         padding: 10px 20px 10px 20px;
     }
-    .splash-section .headers h1 {
+    #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 30px;
     }
 }
@@ -163,13 +163,27 @@ html {
     text-decoration: none;
 }
 
+
 /* intro section styling */ 
 
-.splash-section  {    
+#slide1 {    
     margin-top: 90px;
     text-align: center;
     color: #09814A;        
     background: url(imgs/woman.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+}
+
+#slide2 {
+    display: none;
+    margin-top: 90px;
+    text-align: center;
+    color: #09814A;   
+    background: url(imgs/ken-lily.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -224,7 +238,25 @@ html {
     animation: slideIn 0.5s forwards;
     animation-delay: 6s;
 }
-
+#slide2 .headers {
+    padding: 12px 20px 10px 20px;
+}
+.splash-section .headers #dr-lo {
+    position: relative;
+    left: -1000px;
+    -webkit-animation: slideIn 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideIn 0.5s forwards;
+    animation-delay: 1s;
+}
+.splash-section .headers #dr-lam {
+    position: relative;
+    left: -1000px;
+    -webkit-animation: slideIn 0.5s forwards;
+    -webkit-animation-delay: 3s;
+    animation: slideIn 0.5s forwards;
+    animation-delay: 3s;
+}
 
 .splash-section button:focus {
     outline: 0;
@@ -642,7 +674,6 @@ html {
 .contact-section .disclaimer {
     padding: 10px; 
     background-color: #fff;
-    
 }
 #trademark {
     font-size: 8px;
