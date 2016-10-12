@@ -191,7 +191,7 @@ html {
     background-attachment: scroll;
 }
 
-.splash-section .headers h1, button{
+.splash-section .headers h1, h2, button{
     clear: both;
     float: left;
     padding: 0px;
@@ -241,7 +241,7 @@ html {
 #slide2 .headers {
     padding: 12px 20px 10px 20px;
 }
-.splash-section .headers #dr-lo {
+.splash-section .headers #dr-lo, #dds {
     position: relative;
     left: -1000px;
     -webkit-animation: slideIn 0.5s forwards;
@@ -249,7 +249,7 @@ html {
     animation: slideIn 0.5s forwards;
     animation-delay: 1s;
 }
-.splash-section .headers #dr-lam {
+.splash-section .headers #dr-lam, #md{
     position: relative;
     left: -1000px;
     -webkit-animation: slideIn 0.5s forwards;
