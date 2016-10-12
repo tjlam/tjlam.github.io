@@ -191,7 +191,7 @@ html {
     background-attachment: scroll;
 }
 
-.splash-section .headers h1, h2, button{
+.splash-section .headers h1, .splash-section .headers h2, button{
     clear: both;
     float: left;
     padding: 0px;
@@ -238,8 +238,11 @@ html {
     animation: slideIn 0.5s forwards;
     animation-delay: 6s;
 }
-#slide2 .headers {
-    padding: 12px 20px 10px 20px;
+#slide2 .headers #dr-lo {
+    padding-top: 55px;
+}
+#slide2 .headers #md{
+    padding-bottom: 56px;
 }
 .splash-section .headers #dr-lo, #dds {
     position: relative;
@@ -303,11 +306,13 @@ html {
 .about-section .about-header {
     color: #09814A;
     text-align: left;
+    display: block;
 }
 
 .about-section .about-body {
     text-align: left;
     padding-top: 20px;
+    display: block;
 }
 
 .about-section .office-photo {
