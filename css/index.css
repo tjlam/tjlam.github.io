@@ -283,7 +283,11 @@ html {
 
 /* promotion */ 
 #promotion {
+<<<<<<< HEAD
     padding: 5px;
+=======
+    padding: 10px;
+>>>>>>> dev
     background-color: #09814A;
     color: #FFF;
     text-align: center;
