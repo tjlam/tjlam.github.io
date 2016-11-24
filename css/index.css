@@ -666,7 +666,15 @@ html {
     border-left: solid;
     border-color: #09814A;
     padding-left: 10px;
+
 }
+.testimonial-section .testimonials .card h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.testimonial-section .testimonials .card p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
 /* contact section styling */ 
 .contact-section {
     padding-top: 70px;
