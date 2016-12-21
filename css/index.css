@@ -343,6 +343,9 @@ html {
     border: none;
     border-radius: 0px;
     background-color: rgba(255, 255, 255);
+    max-width: 400px;
+    width: 100%;
+
    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 #about-thumbnails .thumbnail img {
@@ -412,7 +415,7 @@ html {
     padding-bottom: 50px;
 }
 .products-section .row {
-    padding: 0px 100px 0px 100px;
+    
 }
 .products-section .row .col-sm-6 {
     padding: 0px 10px 0px 10px;
