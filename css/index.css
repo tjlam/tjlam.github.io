@@ -165,7 +165,7 @@ html {
     font-size: 1.2em;
 }
 /* back to top button */ 
-.to-top button {
+.to-top p {
     position: fixed; 
     right: 0px; 
     bottom: 60px;
@@ -173,9 +173,11 @@ html {
     border-color: #09814A;
     border-radius: 0px;
     background: #09814A;
-    color: #FFF;
     font-family: 'Alegreya Sans SC', sans-serif;  
     z-index: 1;
+}
+.to-top a {
+    color: black;
 }
 #facebook-icon {
     text-decoration: none;
