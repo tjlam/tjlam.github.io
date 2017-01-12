@@ -8,6 +8,7 @@ var main = function () {
 	var lastScrollTop = 0; 
 	var delta = 20; 
 	var navbarHeight = $('.navbar').outerHeight(); 
+	//$('.to-top').hide();
 
 	$(window).scroll( function(event) {
 		didScroll = true;
@@ -34,8 +35,10 @@ var main = function () {
 
 		if (st > lastScrollTop) {
 			$('.navbar').fadeOut(500);
+			$('to-top').fadeOut(500);
 		} else {
 			$('.navbar').fadeIn(500);
+			//$('.to-top').fadeOut(500);
 		}
 		lastScrollTop = st; 
 	}

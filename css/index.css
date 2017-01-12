@@ -45,6 +45,9 @@ html {
         font-size: 75px;
     }
     
+    #about-thumbnails {
+        padding: 70px 120px 70px 120px;
+    }
 
 }
 @media screen and (max-width:990px) {
@@ -77,6 +80,15 @@ html {
     
     #slide1 .headers h1, #slide2 .headers h1 {
         font-size: 45px;
+    }
+
+    #contact-bar {
+        visibility: hidden;
+        display: none;
+    }
+
+    #about-thumbnails {
+        padding: 0px 20px 0px 20px;
     }
     
 
@@ -349,7 +361,6 @@ html {
 #about-thumbnails {
     width: 100%;
     margin: 0px;
-    padding: 70px 120px 70px 120px;
     background: url(imgs/orchids.png) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
